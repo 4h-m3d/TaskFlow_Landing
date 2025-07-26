@@ -1,12 +1,108 @@
-# React + Vite
+# TaskFlow – Responsive Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskFlow is a fictional productivity app designed to help users **organize their tasks, collaborate with teams, and boost productivity**.  
+This repository contains the **landing page** built using **React, Tailwind CSS, and Framer Motion**, with **smooth animations, a responsive layout, and a mobile-friendly navigation bar**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Responsive Design** – Works on desktops, tablets, and smartphones.
+- **Smooth Scroll Navigation** – Sticky navigation bar with animated scrolling.
+- **Interactive Animations** – Sections fade in as you scroll, hover effects on buttons and cards.
+- **Framer Motion Integration** – Professional UI transitions.
+- **Modern Tailwind Layout** – Clean and minimal UI, easy to customize.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼 Screenshots
+
+
+### Desktop View
+![Desktop Home](./screenshots/home-desktop.png)
+
+### Mobile View
+![Mobile Home](./screenshots/home-mobile.jpg)
+
+### Features Section
+![Features](./screenshots/features.png)
+
+### Pricing Section
+![Pricing](./screenshots/pricing.png)
+
+---
+
+## 🛠 Tech Stack
+
+- **React (Vite)** – Fast development environment
+- **Tailwind CSS** – Utility-first styling
+- **Framer Motion** – Smooth animations
+- **Lucide Icons** – Clean, modern icons
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/4h-m3d/TaskFlow_Landing.git
+cd taskflow-landing
+npm install
+```
+
+Start the development server (with network access for mobile testing):
+
+```bash
+npm run dev -- --host
+```
+
+Open your browser at the local or network address displayed (for example: `http://192.168.x.x:5173/` to view on your phone).
+
+---
+
+## 📱 Testing on Mobile
+
+1. Ensure your **PC and phone are on the same Wi-Fi**.
+2. Run:
+   ```bash
+   npm run dev -- --host
+   ```
+3. Look for the **Network URL** Vite shows:
+   ```
+   Network: http://192.168.1.5:5173/
+   ```
+4. Enter that URL on your phone’s browser (or create a QR code for quick access).
+
+---
+
+## 🚧 Future Improvements
+
+- **Dark Mode Toggle** – Add light/dark themes.
+- **Blog/Updates Section** – Keep users engaged with tips.
+- **Form Integration** – Newsletter signups or contact form.
+- **Backend API** – Connect with a real task management system.
+- **Deployment** – Host on Netlify, Vercel, or GitHub Pages.
+
+---
+
+## 🤝 Contributing
+
+1. Fork this repository.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push to your fork and create a Pull Request.
+
+---
+
+## 🎬 Directed By
+
+Ahmed Nadeem – Project Oversight & Guidance
+
+---
